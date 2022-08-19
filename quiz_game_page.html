@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        The Math Quiz Game!
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Cabin+Sketch:wght@700&family=Mouse+Memoirs&family=Rubik+Moonrocks&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="quiz_game.css">
+    <link rel="shortcut icon" href="math thumbnail.gif">
+</head>
+
+<body>
+        <span id="player1_name" class = "score_board">
+
+    </span>
+    <span id=player1_score class = "score_board">
+
+    </span>
+    <h4 id = "p1status" class = "score_board">
+
+    </h4>
+    <br>
+    <br>
+    <span id="player2_name" class = "score_board">
+
+    </span>
+    <span id=player2_score class = "score_board">
+
+    </span>
+    <h4 id = "p2status" class = "score_board">
+
+    </h4>
+    <div class="container">
+        <center>
+            <h1>
+                Math Quiz
+            </h1>
+            <h2>
+
+            </h2>
+            <div id="output">
+                <h3 id="question">
+
+                </h3>
+                <br>
+                <span>
+                    <label>
+                        Answer:
+                    </label>
+                    <input type="text" placeholder="Answer" id="answer">
+                </span>
+                <br>
+                <br>
+                <button id="Check" class="btn btn-info" onclick="Check()">
+                    <b>
+                        Check
+                    </b>
+                </button>
+            </div>
+            <br>
+            <br>
+            <label class="number">
+                Number 1
+            </label>
+            <br>
+            <input type="number" placeholder="Number 1" id="Number-1">
+            <br>
+            <br>
+            <label class="number">
+                Number 2
+            </label>
+            <br>
+            <input type="number" placeholder="Number 2" id="Number-2">
+            <br>
+            <br>
+            <div>
+                <button id = "Send" onclick = "Send()">
+                    Send
+                </button>
+            </div>
+            <br>
+            <br>
+            <h2 class = "btn btn-danger" id = "Check_the_button">
+                
+            </h2>
+        </center>
+    </div>
+    <script src="quiz_game_page.js"></script>
+</body>
+</html>

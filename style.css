@@ -1,0 +1,21 @@
+body
+{
+    background-image:url("https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?ixlib=rb-1.2.1");
+    text-align:center;
+    background-position:center;
+    color:white;
+}
+.login_div
+{
+    border-radius:15px;
+    background-color: rgba(245, 245, 245, 0.623);
+    text-align:center;
+    padding:10px;
+    float:none;
+    color:black;
+}
+#Player_1_Login_Input, #Player_2_Login_Input
+{
+    border-radius:250px;
+    background-color: rgba(255, 255, 255, 0.733);
+}
